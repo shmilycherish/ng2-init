@@ -8,8 +8,11 @@ import {NoteCard} from "./note-card";
     directives: [NoteCard]
 })
 export class Notes{
-    note = {
+    notes = [{
         title: 'a',
         value: 'b'
-    }
+    }, {
+        title: 'a',
+        value: 'b'
+    }]
 }
