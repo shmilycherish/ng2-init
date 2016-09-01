@@ -14,5 +14,9 @@ export class Notes{
     }, {
         title: 'a',
         value: 'b'
-    }]
+    }];
+
+    checkCard(note, index) {
+        this.notes.splice(index, 1);
+    }
 }
