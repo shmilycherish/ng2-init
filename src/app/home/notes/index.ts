@@ -7,4 +7,9 @@ import {NoteCard} from "./note-card";
     styles: [require('./notes.css')],
     directives: [NoteCard]
 })
-export class Notes{}
+export class Notes{
+    note = {
+        title: 'a',
+        value: 'b'
+    }
+}
