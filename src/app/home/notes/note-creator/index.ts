@@ -18,6 +18,7 @@ export class NoteCreator{
             return false;
         }
         this.onCreateNote.emit({title, value});
+        this.newNote = {title: '', value: ''};
         return false;
     }
 }
