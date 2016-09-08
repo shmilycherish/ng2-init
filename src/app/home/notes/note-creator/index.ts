@@ -6,5 +6,9 @@ import { Component } from '@angular/core'
     styles: [require('./note-creator.css')]
 })
 export class NoteCreator{
+    newNote={title: '', value: ''}
 
+    createNote() {
+        console.log(this.newNote)
+    }
 }
